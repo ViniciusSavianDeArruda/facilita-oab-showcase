@@ -1,28 +1,28 @@
 # Facilita OAB
 
-\<p align="center">
-&#x20; \<strong>Estude com estratégia. Evolua com inteligência. Conquiste sua aprovação.\</strong>
-\</p>
+<p align="center">
+  <strong>Estude com estratégia. Evolua com inteligência. Conquiste sua aprovação.</strong>
+</p>
 
-\<p align="center">
-&#x20; Plataforma de estudos desenvolvida para a preparação da primeira fase do Exame da Ordem dos Advogados do Brasil (OAB).
-\</p>
+<p align="center">
+  Plataforma de estudos desenvolvida para auxiliar estudantes de Direito na preparação para a primeira fase do Exame da Ordem dos Advogados do Brasil (OAB).
+</p>
 
 ---
 
-## Sobre o projeto
+## 📚 Sobre o projeto
 
 O **Facilita OAB** é uma plataforma digital de estudos criada para auxiliar estudantes de Direito na preparação para a primeira fase do Exame da Ordem dos Advogados do Brasil.
 
 A proposta é reunir, em um único ambiente, ferramentas que acompanham diferentes etapas da preparação: planejamento, estudo, resolução de questões, revisão de erros e análise de desempenho.
 
-O projeto vai além de um banco de questões tradicional. Seu objetivo é funcionar como um companion de estudos, combinando organização automatizada, recursos de inteligência artificial e acompanhamento contínuo da evolução do estudante.
+O projeto vai além de um banco de questões tradicional. Seu objetivo é funcionar como um *companion* de estudos, combinando organização automatizada, recursos de inteligência artificial e acompanhamento contínuo da evolução do estudante.
 
 A plataforma utiliza a distribuição de conteúdos por relevância e peso das matérias na prova da FGV, buscando tornar a preparação mais direcionada e eficiente.
 
-## Funcionalidades
+## ✨ Funcionalidades
 
-### Mentor Jurídico
+### 🧑‍⚖️ Mentor Jurídico
 
 Assistente de inteligência artificial integrado ao Google Gemini, desenvolvido para auxiliar o estudante durante sua preparação.
 
@@ -33,7 +33,7 @@ Assistente de inteligência artificial integrado ao Google Gemini, desenvolvido 
 - Integração com o Caderno de Erros.
 - Orientação voltada à compreensão de conteúdos jurídicos.
 
-### Simulados
+### 📝 Simulados
 
 Sistema de avaliação com questões inéditas geradas por inteligência artificial.
 
@@ -44,7 +44,7 @@ Sistema de avaliação com questões inéditas geradas por inteligência artific
 - Recuperação de sessões após atualização da página.
 - Registro dos resultados para acompanhamento posterior.
 
-### Caderno de Erros
+### 📖 Caderno de Erros
 
 Ambiente centralizado para organizar questões e dificuldades identificadas durante os estudos.
 
@@ -54,7 +54,7 @@ Ambiente centralizado para organizar questões e dificuldades identificadas dura
 - Salvamento automático.
 - Feedback sobre falhas de sincronização.
 
-### Plano de Estudos
+### 📅 Plano de Estudos e Cronograma
 
 Planejamento adaptável para organizar a preparação até a data da prova.
 
@@ -64,21 +64,17 @@ Planejamento adaptável para organizar a preparação até a data da prova.
 - Acompanhamento do progresso.
 - Persistência das alterações e feedback de sincronização.
 
-### Cronograma
-
-Organização da rotina de preparação, permitindo visualizar e acompanhar as atividades planejadas ao longo dos dias.
-
-### Estatísticas
+### 📊 Estatísticas
 
 Painel de acompanhamento da evolução do estudante.
 
 - Evolução das notas nos simulados.
 - Desempenho por matéria.
-- Sequência de dias estudando (streak).
+- Sequência de dias estudando (*streak*).
 - Indicadores de evolução.
 - Acompanhamento do Caderno de Erros.
 
-### Página inicial
+### 🏠 Página inicial
 
 Visão geral da rotina de estudos, reunindo informações relevantes para o acompanhamento diário.
 
@@ -89,30 +85,30 @@ Visão geral da rotina de estudos, reunindo informações relevantes para o acom
 
 ---
 
-## Tecnologias e ferramentas
+## 🛠️ Tecnologias e ferramentas
 
 O projeto utiliza uma arquitetura web separada entre frontend, backend e banco de dados.
 
-| Camada                    | Tecnologias              |
-| ------------------------- | ------------------------ |
-| Interface                 | React 18                 |
-| Build e desenvolvimento   | Vite 6                   |
-| Estilização               | Tailwind CSS 3           |
-| Componentes visuais       | Heroicons                |
-| Renderização de conteúdo  | react-markdown e GFM     |
-| Backend                   | Python 3.12 e FastAPI    |
-| ORM                       | SQLAlchemy 2             |
-| Migrações                 | Alembic                  |
-| Validação de dados        | Pydantic                 |
-| Banco de dados            | PostgreSQL               |
-| Inteligência artificial   | Google Gemini            |
+| Camada | Tecnologias |
+|---|---|
+| Interface | React 18 |
+| Build e desenvolvimento | Vite 6 |
+| Estilização | Tailwind CSS 3 |
+| Componentes visuais | Heroicons |
+| Renderização de conteúdo | react-markdown e GFM |
+| Backend | Python 3.12 e FastAPI |
+| ORM | SQLAlchemy 2 |
+| Migrações | Alembic |
+| Validação de dados | Pydantic |
+| Banco de dados | PostgreSQL |
+| Inteligência artificial | Google Gemini |
 | Comunicação em tempo real | Server-Sent Events (SSE) |
-| Autenticação              | JWT (HS256)              |
-| Limitação de requisições  | SlowAPI                  |
-| Containerização           | Docker e Docker Compose  |
-| Integração contínua       | GitHub Actions           |
+| Autenticação | JWT (HS256) |
+| Limitação de requisições | SlowAPI |
+| Containerização | Docker e Docker Compose |
+| Integração contínua | GitHub Actions |
 
-### Design System
+### 🎨 Design System
 
 A interface utiliza uma identidade visual editorial, desenvolvida para oferecer uma experiência de estudo organizada, consistente e confortável.
 
@@ -124,7 +120,7 @@ A interface utiliza uma identidade visual editorial, desenvolvida para oferecer 
 
 ---
 
-## Arquitetura
+## 🏗️ Arquitetura
 
 A aplicação é organizada em camadas com responsabilidades distintas.
 
@@ -176,11 +172,11 @@ O PostgreSQL é utilizado para persistência dos dados. O SQLAlchemy realiza o m
 
 A integração com o Google Gemini oferece recursos de assistência jurídica e geração de simulados.
 
-O projeto utiliza structured output com validação por schemas Pydantic para estruturar as questões geradas e facilitar seu processamento pela aplicação.
+O projeto utiliza *structured output* com validação por schemas Pydantic para estruturar as questões geradas e facilitar seu processamento pela aplicação.
 
 ---
 
-## Segurança e confiabilidade
+## 🔐 Segurança e confiabilidade
 
 A arquitetura considera aspectos importantes para a manutenção de uma aplicação web:
 
@@ -195,22 +191,22 @@ A arquitetura considera aspectos importantes para a manutenção de uma aplicaç
 
 ---
 
-## Infraestrutura e publicação
+## ☁️ Infraestrutura e publicação
 
 A infraestrutura de produção utiliza serviços especializados para cada camada da aplicação:
 
-| Serviço        | Responsabilidade          |
-| -------------- | ------------------------- |
-| Vercel         | Hospedagem do frontend    |
-| Render         | Hospedagem do backend     |
-| Neon           | Banco de dados PostgreSQL |
-| GitHub Actions | Integração contínua       |
+| Serviço | Responsabilidade |
+|---|---|
+| Vercel | Hospedagem do frontend |
+| Render | Hospedagem do backend |
+| Neon | Banco de dados PostgreSQL |
+| GitHub Actions | Integração contínua |
 
 O fluxo de integração contínua contempla verificações automatizadas, testes e build da aplicação.
 
 ---
 
-## Evolução do projeto
+## 🚀 Evolução do projeto
 
 O Facilita OAB está em desenvolvimento contínuo. A evolução considera tanto o aprimoramento das funcionalidades existentes quanto a preparação da arquitetura para novos cenários de utilização.
 
@@ -231,7 +227,7 @@ A migração deverá preservar integralmente os dados e a continuidade de utiliz
 
 ---
 
-## Documentação
+## 📂 Documentação
 
 Este repositório público funciona como espaço de apresentação, documentação e acompanhamento da evolução do Facilita OAB.
 
@@ -248,7 +244,7 @@ O código-fonte principal, as configurações privadas e os dados de produção 
 
 ---
 
-## Status
+## 📌 Status do projeto
 
 **Em desenvolvimento contínuo.**
 
@@ -258,4 +254,7 @@ Seu desenvolvimento busca conciliar engenharia de software, inteligência artifi
 
 ---
 
-\<p align="center">   \<strong>Facilita OAB\</strong>\<br/>   Tecnologia a serviço da sua aprovação. \</p>
+<p align="center">
+  <strong>Facilita OAB</strong><br/>
+  Tecnologia a serviço da sua aprovação. ⚖️
+</p>
