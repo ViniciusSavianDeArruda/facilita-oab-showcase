@@ -10,6 +10,35 @@
 
 ---
 
+## 🔒 Sobre este repositório
+
+Este é o repositório público de apresentação e documentação do **Facilita OAB**.
+
+O código-fonte completo da plataforma está armazenado em um **repositório privado**, que concentra o desenvolvimento e os componentes internos do sistema, incluindo frontend, backend, banco de dados, integrações, configurações e demais arquivos necessários ao funcionamento da aplicação.
+
+A separação entre os repositórios existe para preservar a segurança, a integridade e a propriedade intelectual do projeto.
+
+**O que você encontra aqui:**
+- Visão geral do Facilita OAB e de suas funcionalidades.
+- Documentação técnica e arquitetural em nível de apresentação.
+- Decisões e tecnologias utilizadas no desenvolvimento.
+- Registro de melhorias e evolução do projeto.
+- Imagens e demonstrações da plataforma.
+- Planejamento de funcionalidades futuras.
+
+**O que não está disponível publicamente:**
+- Código-fonte completo da aplicação.
+- Credenciais, chaves de API e variáveis de ambiente.
+- Configurações internas de produção.
+- Dados de usuários e informações privadas.
+- Arquivos e instruções internas de desenvolvimento.
+
+Este repositório não contém uma versão executável ou completa da plataforma. Seu objetivo é apresentar o projeto, documentar sua evolução e compartilhar informações sobre as soluções desenvolvidas.
+
+
+---
+
+
 ## 📚 Sobre o projeto
 
 O **Facilita OAB** é uma plataforma digital de estudos criada para auxiliar estudantes de Direito na preparação para a primeira fase do Exame da Ordem dos Advogados do Brasil.
